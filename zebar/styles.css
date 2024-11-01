@@ -1,0 +1,157 @@
+/**
+ * Import the Nerdfonts icon font.
+ * Ref https://www.nerdfonts.com/cheat-sheet for a cheatsheet of available Nerdfonts icons.
+ */
+ @import 'https://www.nerdfonts.com/assets/css/webfont.css';
+ @import 'https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css';
+ @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+ 
+ i {
+   color: #6b1bffcf;
+   margin-right: 7px;
+   font-size: 18px;
+ }
+ 
+ body {
+
+   color: rgb(255 255 255 / 90%);
+   font-family: "JetBrains Mono", ui-monospace, monospace;
+   font-size: 12px;
+   overflow: hidden;
+ }
+ 
+ html,
+ body,
+ #root {
+   height: 100%;
+ }
+ 
+ #root {
+   background: linear-gradient(rgba(32, 19, 41, 0.666), rgba(98, 0, 255, 0));
+ }
+ 
+ .app {
+  
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+   height: 100%;
+   padding: 4px 1.5vw;
+ }
+ 
+ .left,
+ .center,
+ .right {
+   display: flex;
+   align-items: center;
+   font-size: 15px;
+ }
+
+ 
+
+ .center div,
+ .right div {
+  background: rgba(25, 25, 25, 0.483);
+  display: flex;
+  align-items: center;
+   border-radius: 12px;
+   padding: 5px;
+   box-shadow: 0 0 8px rgba(80, 21, 168, 0.372);
+   margin-bottom: 5px;
+ }
+
+ .sp {
+  color: transparent;
+ }
+ 
+ .center {
+   justify-self: center;
+ }
+ 
+ .right {
+   justify-self: end;
+ }
+ 
+ .logo,
+ .binding-mode,
+ .tiling-direction,
+ .network,
+ .memory,
+ .cpu,
+ .battery {
+   margin-right: 20px;
+ }
+ 
+ .workspaces {
+   display: flex;
+   align-items: center;
+ }
+ 
+ .workspace {
+  box-shadow: 0 0 5px rgba(10, 10, 10, 0.076);
+  display: flex;
+  align-items: center;
+   background: rgba(50, 49, 52, 0.543);
+   margin-right: 4px;
+   padding: 4px 8px;
+   color: rgb(255 255 255 / 90%);
+   border: none;
+   border-radius: 100px;
+   cursor: pointer;
+    height: 24px;
+    transition-duration: 0.5s;
+    width: 32px;
+
+   &.displayed {
+     background: rgb(255 255 255 / 15%);
+   }
+ 
+   &.focused {
+    box-shadow: 0 0 12px rgba(107, 27, 255, 0.434);
+     background: rgba(107, 27, 255, 0.804);
+     width: 64px;
+    }
+   &:hover{
+    background: rgba(122, 116, 136, 0.859);
+    width: 64px;
+  }
+ }
+ 
+ .binding-mode,
+ .tiling-direction {
+  display: flex;
+  align-items: center;
+  background: rgba(25, 25, 25, 0.483);
+  box-shadow: 0 0 8px rgba(237, 225, 255, 0.372);
+   color: rgb(255 255 255 / 90%);
+   border-radius: 100%;
+   line-height: 1;
+   height: 100%;
+   padding: 8px;
+   border: 0;
+   cursor: pointer;
+   transition-duration: 0.2s;
+ }
+ .tiling-direction:hover {
+  background: rgba(127, 36, 255, 0.467);
+}
+ 
+ .binding-mode {
+   margin-right: 4px;
+ }
+ 
+ .cpu .high-usage {
+   color: #ba095b;
+ }
+ 
+ .battery {
+   position: relative;
+ }
+ 
+ .battery .charging-icon {
+   position: absolute;
+   font-size: 7px;
+   left: -8px;
+   top: 3px;
+ }
+ 
