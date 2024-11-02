@@ -1,5 +1,9 @@
 # My UnixCorn Setup for Windows
 
+<img src="resources/2.png" width="400" alt="">
+<img src="resources/1.png" width="400" alt="">
+<img src="resources/3.png" width="400" alt="">
+
 ## Aplications used:
 
 | Application Name | Usage | Link |
@@ -13,7 +17,7 @@
 ## Settings Locations:
 
 | Name | Path |
-| ------------- | ------------- | ------------ |
+| ------------- | ------------- |
 | winfetch | C:\Users\USERNAME\.config\winfetch\ |
 | zebar  | C:\Users\USERNAME\.glzr\zebar\starter\ |
 | glazewm  | C:\Users\USERNAME\.glzr\glazewm\ |
