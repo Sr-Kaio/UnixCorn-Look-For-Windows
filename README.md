@@ -1,8 +1,8 @@
 # My UnixCorn Setup for Windows
 
-<img src="resources/2.png" width="400" alt="">
-<img src="resources/1.png" width="400" alt="">
-<img src="resources/3.png" width="400" alt="">
+<img src="resources/2.png" width="800" alt="">
+<img src="resources/1.png" width="800" alt="">
+<img src="resources/3.png" width="800" alt="">
 
 ## Aplications used:
 
