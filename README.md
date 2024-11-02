@@ -18,7 +18,7 @@
 
 | Name | Path |
 | ------------- | ------------- |
-| winfetch | C:\Users\USERNAME\.config\winfetch\ |
-| zebar  | C:\Users\USERNAME\.glzr\zebar\starter\ |
-| glazewm  | C:\Users\USERNAME\.glzr\glazewm\ |
+| winfetch | C:\Users\USERNAME\\.config\winfetch\ |
+| zebar  | C:\Users\USERNAME\\.glzr\zebar\starter\ |
+| glazewm  | C:\Users\USERNAME\\.glzr\glazewm\ |
 | wezterm  | C:\Users\USERNAME\ |
