@@ -14,7 +14,7 @@
 | StarShip  | Customizable prompt for WezTerm | [Download Link](https://starship.rs/) |
 | WinFetch  | NeoFetch for Windows | [Github Page](https://github.com/lptstr/winfetch) |
 
-## Settings Locations:
+## Config Location:
 
 | Name | Path |
 | ------------- | ------------- |
