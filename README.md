@@ -13,7 +13,6 @@ we're made for my personal likings and to look like something out of [r/unixporn
 
 <img src="resources/2.png" width="800" alt="">
 <img src="resources/1.png" width="800" alt="">
-<img src="resources/3.png" width="800" alt="">
 
 ## Aplications used:
 
