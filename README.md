@@ -14,6 +14,7 @@ we're made for my personal likings and to look like something out of [r/unixporn
 <img src="resources/2.png" width="800" alt="">
 <img src="resources/1.png" width="800" alt="">
 <img src="resources/Screenshot 2024-11-03 162323.png" width="800" alt="">
+
 ## Aplications used:
 
 | Application Name | Usage | Link |
