@@ -4,6 +4,13 @@
 
 # My UnixCorn Setup for Windows
 
+This repository is a group of configuration file's that 
+we're made for my personal likings and to look like something out of the sub-reddit [r/unixporn](https://www.reddit.com/r/unixporn/).
+
+**If you wan't you could use this as a template, just give credit if you wan't**
+
+## Screenshots:
+
 <img src="resources/2.png" width="800" alt="">
 <img src="resources/1.png" width="800" alt="">
 <img src="resources/3.png" width="800" alt="">
