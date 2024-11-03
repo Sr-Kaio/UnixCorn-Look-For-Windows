@@ -1,4 +1,6 @@
-<img src="resources/logo.png" width="800" alt="">
+<p align="center">
+    <img src="resources/logo.png" width="800" alt="">
+</p>
 
 # My UnixCorn Setup for Windows
 
