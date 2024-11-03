@@ -56,6 +56,7 @@ i {
   align-items: center;
    border-radius: 12px;
    padding: 5px;
+   border: 2px solid rgba(185, 185, 185, 0.2);
    box-shadow: 0 0 8px rgba(80, 21, 168, 0.372);
    margin-bottom: 5px;
  }
@@ -88,32 +89,36 @@ i {
  }
  
  .workspace {
-  box-shadow: 0 0 5px rgba(10, 10, 10, 0.076);
+  box-shadow: 0 0 10px rgba(5, 5, 5, 0.7);
+  border: 2px solid rgba(185, 185, 185, 0.2);
+
   display: flex;
   align-items: center;
    background: rgba(50, 49, 52, 0.543);
    margin-right: 4px;
    padding: 4px 8px;
    color: rgb(255 255 255 / 90%);
-   border: none;
+   border: 2px solid rgba(185, 185, 185, 0.1);
    border-radius: 100px;
    cursor: pointer;
-    height: 30px;
+    height: 35px;
     transition-duration: 0.5s;
-    width: 32px;
+    width: 36px;
 
    &.displayed {
      background: rgb(255 255 255 / 15%);
    }
  
    &.focused {
+    border: 2px solid rgba(185, 185, 185, 0);
+
     box-shadow: 0 0 12px rgba(107, 27, 255, 0.434);
      background: rgba(107, 27, 255, 0.804);
-     width: 64px;
+     width: 72px;
     }
    &:hover{
     background: rgba(122, 116, 136, 0.859);
-    width: 64px;
+    width: 72px;
   }
  }
  
