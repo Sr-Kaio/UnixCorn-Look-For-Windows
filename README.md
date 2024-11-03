@@ -5,7 +5,7 @@
 # My UnixCorn Setup for Windows
 
 This repository is a group of configuration file's that 
-we're made for my personal likings and to look like something out of the sub-reddit [r/unixporn](https://www.reddit.com/r/unixporn/).
+we're made for my personal likings and to look like something out of [r/unixporn](https://www.reddit.com/r/unixporn/).
 
 **If you wan't you could use this as a template, just give credit if you wan't**
 
