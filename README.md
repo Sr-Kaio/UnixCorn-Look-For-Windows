@@ -17,7 +17,7 @@
 | WezTerm  | Pretty Terminal | [Download Link](https://wezfurlong.org/wezterm/index.html) |
 | StarShip  | Customizable prompt for WezTerm | [Download Link](https://starship.rs/) |
 | WinFetch  | NeoFetch for Windows | [Github Page](https://github.com/lptstr/winfetch) |
-| PowerToys **(Optional)**  | Quick Launcher | [Microsoft Documentation Page]([https://github.com/lptstr/winfetch](https://learn.microsoft.com/pt-br/windows/powertoys/)) |
+| PowerToys **(Optional)**  | Quick Launcher | [Microsoft Documentation Page](https://learn.microsoft.com/pt-br/windows/powertoys/) |
 
 ## Config Location:
 
