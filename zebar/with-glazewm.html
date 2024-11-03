@@ -37,10 +37,11 @@
         cpu: { type: 'cpu' },
         date: { type: 'date', formatting: 'd MMM ' },
         hour: { type: 'date', formatting: 't' },
-        //battery: { type: 'battery' },
+        battery: { type: 'battery' },
         memory: { type: 'memory' },
         weather: { type: 'weather' },
       });
+
 
       createRoot(document.getElementById('root')).render(<App />);
 
@@ -55,7 +56,7 @@
         function getNetworkIcon(networkOutput) {
           switch (networkOutput.defaultInterface?.type) {
             case 'ethernet':
-              return <i className="mdi mdi-ethernet"></i>;
+              return <i className="mdi mdi-ethernet"></i>
             case 'wifi':
               if (networkOutput.defaultGateway?.signalStrength >= 80) {
                 return <i className="mdi mdi-wifi-strength-4"></i>;
@@ -84,14 +85,14 @@
         // Get icon to show for how much of the battery is charged.
         function getBatteryIcon(batteryOutput) {
           if (batteryOutput.chargePercent > 90)
-            return <i className="nf nf-fa-battery_4"></i>;
+            return <i className="mdi mdi-battery"></i>;
           if (batteryOutput.chargePercent > 70)
-            return <i className="nf nf-fa-battery_3"></i>;
+            return <i className="mdi mdi-battery-70"></i>;
           if (batteryOutput.chargePercent > 40)
-            return <i className="nf nf-fa-battery_2"></i>;
+            return <i className="mdi mdi-battery-40"></i>;
           if (batteryOutput.chargePercent > 20)
-            return <i className="nf nf-fa-battery_1"></i>;
-          return <i className="nf nf-fa-battery_0"></i>;
+            return <i className="mdi mdi-battery-20"></i>;
+          return <i className="mdi mdi-battery-off"></i>;
         }
 
         // Get icon to show for current weather status.
@@ -209,7 +210,7 @@
                 <div className="battery">
                   {/* Show icon for whether battery is charging. */}
                   {output.battery.isCharging && (
-                    <i className="nf nf-md-power_plug charging-icon"></i>
+                    <i className="mdi mdi-battery-charging"></i>
                   )}
                   {getBatteryIcon(output.battery)}
                   {Math.round(output.battery.chargePercent)}%
