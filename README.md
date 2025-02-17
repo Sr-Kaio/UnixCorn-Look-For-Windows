@@ -7,12 +7,14 @@
 This repository is a group of configuration file's that 
 we're made for my personal likings and to look like something out of [r/unixporn](https://www.reddit.com/r/unixporn/).
 
+
 **If you wan't you could use this as a template, just give credit if you wan't**
 
 ## Screenshots:
 
 <img src="resources/2.png" width="800" alt="">
 <img src="resources/1.png" width="800" alt="">
+<img src="resources/Screenshot 2024-11-03 162323.png" width="800" alt="">
 
 ## Aplications used:
 
@@ -22,7 +24,7 @@ we're made for my personal likings and to look like something out of [r/unixporn
 | Zebar  | The Top Bar | [Github Page](https://github.com/glzr-io/zebar) |
 | WezTerm  | Pretty Terminal | [Download Link](https://wezfurlong.org/wezterm/index.html) |
 | StarShip  | Customizable prompt for WezTerm | [Download Link](https://starship.rs/) |
-| WinFetch  | NeoFetch for Windows | [Github Page](https://github.com/lptstr/winfetch) |
+| WinFetch **(Optional)** | NeoFetch for Windows | [Github Page](https://github.com/lptstr/winfetch) |
 | PowerToys **(Optional)**  | Quick Launcher | [Microsoft Documentation Page](https://learn.microsoft.com/pt-br/windows/powertoys/) |
 
 ## Config Location:
