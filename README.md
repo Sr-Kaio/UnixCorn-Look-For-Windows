@@ -33,3 +33,4 @@ we're made for my personal likings and to look like something out of [r/unixporn
 | zebar  | C:\Users\USERNAME\\.glzr\zebar\starter\ |
 | glazewm  | C:\Users\USERNAME\\.glzr\glazewm\ |
 | wezterm  | C:\Users\USERNAME\ |
+| vscode | C:\Users\USERNAME\AppData\Roaming\Code\User\settings.json |
